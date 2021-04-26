@@ -1,0 +1,24 @@
+{
+  "name": "Twitch Click",
+  "description": "Harvest bonus points from Dr. Lupo",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["activeTab", "scripting", "storage"],
+  "host_permissions": ["https://twitch.tv/DrLupo*"],
+  "action": {
+    "default_icon": {
+      "16": "/images/drlupo_16.png",
+      "32": "/images/drlupo_32.png",
+      "48": "/images/drlupo_48.png"
+    }
+  },
+  "icons": {
+    "16": "/images/drlupo_16.png",
+    "32": "/images/drlupo_32.png",
+    "48": "/images/drlupo_48.png",
+    "128": "/images/drlupo_128.png"
+  }
+}
