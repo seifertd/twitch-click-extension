@@ -51,7 +51,7 @@ chrome.tabs.onRemoved.addListener( async ( tabId, removeInfo ) => {
 
 chrome.action.onClicked.addListener( async (tab) =>{
   //console.log("GOT CLICK FOR TAB ", tab);
-  if ( tab.url === 'https://www.twitch.tv/DrLupo' ) {
+  if ( tab.url === 'https://www.twitch.tv/tsoding' ) {
     const storageKey = `drlupo`;
     const tabConfig = await readLocalStorage(storageKey);
     const { drlupo } = tabConfig;

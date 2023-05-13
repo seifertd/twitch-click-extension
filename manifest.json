@@ -7,7 +7,7 @@
     "service_worker": "background.js"
   },
   "permissions": ["activeTab", "tabs", "scripting", "storage"],
-  "host_permissions": ["https://twitch.tv/DrLupo*"],
+  "host_permissions": ["https://twitch.tv/tsoding*"],
   "action": {
     "default_icon": {
       "16": "/images/drlupo_16.png",

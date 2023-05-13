@@ -1,2 +1,2 @@
 # twitch-click-extension
-Auto harvest DrLupo's channel point bonuses
+Auto harvest tsoding's channel point bonuses
